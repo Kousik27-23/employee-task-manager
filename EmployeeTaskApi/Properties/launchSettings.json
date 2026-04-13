@@ -1,0 +1,10 @@
+{
+    "profiles": {
+        "EmployeeTaskApi": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "applicationUrl": "https://localhost:11961;http://localhost:5197"
+        }
+    }
+}
