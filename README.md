@@ -66,7 +66,7 @@ npm install
 ### 2. Check proxy port in vite.config.js
 Make sure the port matches your .NET API:
 ```js
-target: 'https://localhost:7001'   // ← match your API port
+target: 'https://localhost:11961'   
 ```
 
 ### 3. Run
