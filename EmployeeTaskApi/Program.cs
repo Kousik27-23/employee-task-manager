@@ -54,7 +54,7 @@ builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
-// ✅ FIXED CORS (THIS SOLVES YOUR ERROR)
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("ReactApp", policy =>
@@ -117,7 +117,7 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-// ✅ CORS MUST BE HERE
+//  CORS 
 app.UseCors("ReactApp");
 
 app.UseAuthentication();

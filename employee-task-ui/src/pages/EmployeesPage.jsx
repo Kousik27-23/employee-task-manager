@@ -12,7 +12,7 @@ export default function EmployeesPage() {
   const [data, setData] = useState(null)
   const [page, setPage] = useState(1)
   const [filters, setFilters] = useState({ department: '', isActive: '' })
-  const [modal, setModal] = useState(null) // null | 'add' | {id, ...}
+  const [modal, setModal] = useState(null) 
   const [form, setForm] = useState(EMPTY_FORM)
   const [saving, setSaving] = useState(false)
   const [deleteTarget, setDeleteTarget] = useState(null)

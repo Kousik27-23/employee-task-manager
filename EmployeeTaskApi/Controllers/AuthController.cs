@@ -11,7 +11,7 @@ public class AuthController : ControllerBase
     private readonly IAuthService _auth;
     public AuthController(IAuthService auth) => _auth = auth;
 
-    /// <summary>Register a new user (Admin / Manager / Employee)</summary>
+    /// Register a new user (Admin / Manager / Employee)
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterDto dto)
     {
@@ -19,7 +19,7 @@ public class AuthController : ControllerBase
         return Ok(result);
     }
 
-    /// <summary>Login and receive a JWT token</summary>
+    /// Login and receive a JWT token
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginDto dto)
     {

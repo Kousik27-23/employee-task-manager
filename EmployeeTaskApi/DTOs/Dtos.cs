@@ -3,7 +3,7 @@ using EmployeeTaskApi.Models;
 
 namespace EmployeeTaskApi.DTOs;
 
-// ── Auth ─────────────────────────────────────────────────────────────────
+// ── Auth 
 
 public class RegisterDto
 {
@@ -36,7 +36,7 @@ public class AuthResponseDto
     public DateTime ExpiresAt { get; set; }
 }
 
-// ── Employee ─────────────────────────────────────────────────────────────
+// ── Employee 
 
 public class CreateEmployeeDto
 {
@@ -86,7 +86,7 @@ public class EmployeeResponseDto
     public int TotalTasks { get; set; }
 }
 
-// ── Task ─────────────────────────────────────────────────────────────────
+// ── Task
 
 public class CreateTaskDto
 {
@@ -132,7 +132,7 @@ public class TaskResponseDto
     public string EmployeeName { get; set; } = string.Empty;
 }
 
-// ── Pagination ────────────────────────────────────────────────────────────
+// ── Pagination
 
 public class PagedResult<T>
 {

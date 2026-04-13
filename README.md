@@ -81,7 +81,7 @@ Opens at `http://localhost:5173`
 
 1. Register an Admin user via Swagger or Postman:
 ```
-POST https://localhost:7001/api/auth/register
+POST https://localhost:11961/api/auth/register
 {
   "username": "admin",
   "email": "admin@example.com",
