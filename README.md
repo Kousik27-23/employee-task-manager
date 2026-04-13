@@ -50,8 +50,8 @@ dotnet ef database update
 ```
 
 ### 3. Run
-Press **F5** in Visual Studio → API runs on `https://localhost:7001`  
-Swagger UI: `https://localhost:7001/swagger`
+Press **F5** in Visual Studio → API runs on `https://localhost:11961`  
+Swagger UI: `https://localhost:11961/swagger`
 
 ---
 
